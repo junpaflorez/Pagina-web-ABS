@@ -33,6 +33,22 @@ ul li:hover{
     background-color: aquamarine;
 }
 
+ul li:hover ul li{
+    display: block;
+}
+
+li{
+    border-style: groove;
+    border-radius: 25%;
+}
+
+ul li ul li{
+    background-color: blue;
+}
+
+ul li ul li:hover{
+    background-color: rgb(172, 172, 110);
+}
 
 
 
