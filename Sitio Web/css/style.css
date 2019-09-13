@@ -1,0 +1,27 @@
+.banner {
+    width: 100%;
+}
+
+.titulo{
+    background-color: black;
+    padding: 12px;
+    color: white;
+}
+body{
+    background-color: rgb(141, 123, 165);
+}
+
+.principal{
+    float: left;
+    padding: 16px;
+    background-color: white;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+}
+ul{
+    background-color: white;
+    width: 100%;
+}
