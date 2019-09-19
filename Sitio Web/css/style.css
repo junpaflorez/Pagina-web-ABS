@@ -83,4 +83,22 @@ p{
     width: 10%;
     height: 10%;
 }
+.header{
+    text-align: center;
+}
+.header .titulo{
+    left: -50;
+}
 
+.menu{
+    
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner:hover{
+    content: url("../img/1.jpg");
+}
