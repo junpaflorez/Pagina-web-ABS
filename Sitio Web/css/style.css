@@ -5,10 +5,10 @@
 .titulo{
     background-color: black;
     padding: 12px;
-    color: white;
+    color: gold;
 }
 body{
-    background-color: rgb(141, 123, 165);
+    background-color: rgb(74, 73, 75);
 }
 
 li{
@@ -20,9 +20,11 @@ li ul li{
 }
 
 li{
-    background-color: white;
+    background-color: rgb(138, 136, 136);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style: none;
     padding: 16px;
+    margin: 0 auto 6px 10px;
 }
 
 li ul li{
@@ -30,7 +32,7 @@ li ul li{
 }
 
 ul li:hover{
-    background-color: aquamarine;
+    background-color: black;
 }
 
 ul li:hover ul li{
@@ -39,29 +41,42 @@ ul li:hover ul li{
 
 li{
     border-style: groove;
-    border-radius: 25%;
+    border-radius: 15%;
+    color:white;
 }
 
 ul li ul li{
-    background-color: blue;
+    background-color: rgb(136, 136, 138);
 }
 
 ul li ul li:hover{
-    background-color: rgb(172, 172, 110);
+    background-color: rgb(207, 115, 250);
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
 }
 
 
 
+h1{
+    color:white;
+}
 
 
-
-
-
-
-
-
-
-
+.seleccionada{
+    background-color:  rgb(207, 115, 250);
+}
+p{
+    color:white;
+    text-align: justify;
+}
+.entre{
+    width: 10%;
+    height: 10%;
+}
 
 
 
