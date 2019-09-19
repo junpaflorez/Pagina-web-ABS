@@ -1,11 +1,17 @@
 .banner {
     width: 100%;
 }
-
+/*titulo de la pagina*/
 .titulo{
     background-color: black;
     padding: 12px;
     color: gold;
+}
+/*cuando me paro sobre el titulo el cambia con esto*/
+.titulo:hover{
+    background-color: white;
+    /*color: red;*/
+
 }
 body{
     background-color: rgb(74, 73, 75);
@@ -77,48 +83,4 @@ p{
     width: 10%;
     height: 10%;
 }
-
-
-
-
-
-
-/*
-.principal{
-    float: left;
-    padding: 16px;
-    background-color: white;
-    color: black;
-}
-
-
-
-li{
-    list-style-type:none;
-}
-.menu{
-
-    background-color: white;
-    width: 100%;
-}
-
-.principal:hover{
-    background-color: coral;
-}
-
-.principal ul{
-    background-color: coral;
-    display: none;
-}
-
-.principal:hover ul{
-    display: contents;
-}
-
-
-ul , li{
-    border-style: groove;
-}
-*/
-
 
